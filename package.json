@@ -1,0 +1,31 @@
+{
+  "name": "reeedit-api",
+  "version": "1.0.0",
+  "description": "api for my reeedit project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmodish/reeedit-api.git"
+  },
+  "keywords": [],
+  "author": "Steve Smodish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssmodish/reeedit-api/issues"
+  },
+  "homepage": "https://github.com/ssmodish/reeedit-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
